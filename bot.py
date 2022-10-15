@@ -15,9 +15,9 @@ LIMIT = 5242880*2
 
 jvbot = Client(
     "Telegraph bot",
-    bot_token = os.environ["BOT_TOKEN"],
-    api_id = int(os.environ["API_ID"]),
-    api_hash = os.environ["API_HASH"],
+    bot_token = os.environ["BOT_TOKEN" , "5781234557:AAEMAPQAXveJ56BAVsHjB2mGZQjc3Sftu7U"],
+    api_id = int(os.environ["API_ID" , "9411723"]),
+    api_hash = os.environ["API_HASH" , "30fa091455c0548d77dc254f0bb705b0"],
 )
 
 START_TEXT = """
